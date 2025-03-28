@@ -46,7 +46,7 @@ export default function index(){
       </TouchableOpacity>
 
       <Modal visible={modalVisible} animationType="fade" transparent={true}>
-        <ModalPassword/>
+        <ModalPassword password={passwordvalue} handleClose={()=>setModalVisible(false)}/>
       </Modal>
     </View>
   )
