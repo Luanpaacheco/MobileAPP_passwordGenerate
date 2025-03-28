@@ -1,5 +1,4 @@
-import {View, Text, StyleSheet, TouchableOpacity, Pressable} from 'react-native';
-import Clipboard from '@react-native-clipboard/clipboard'
+import {View, Text, StyleSheet, TouchableOpacity, Pressable, Clipboard} from 'react-native';
 
 
 
